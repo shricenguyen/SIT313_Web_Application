@@ -34,6 +34,11 @@ const NavBar = () => {
             Register
           </Link>
         </Button>
+        <Button link to="/subscription-bar" color="inherit" sx={{ ml: 9 }}>
+          <Link to="/subscription-bar" style={{ textDecoration: "none" }}>
+            Subscription
+          </Link>
+        </Button>
       </Toolbar>
     </AppBar>
   );

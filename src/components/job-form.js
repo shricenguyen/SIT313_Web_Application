@@ -28,6 +28,8 @@ const JobForm = () => {
     experienceFor: "",
   });
 
+  const [jobType, setJobType] = useState("freelance");
+
   const handleJobTypeChange = (event) => {
     setJobType(event.target.value);
   };

@@ -4,6 +4,7 @@ import JobForm from "./components/job-form.js";
 import MainDisplay from "./components/main-display.js";
 import Login from "./components/Login-Register/login.js";
 import Register from "./components/Login-Register/register.js";
+import SubscriptionBar from "./components/subscription-bar.js";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { CssBaseline, Container } from "@mui/material";
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/job-form" element={<JobForm />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/subscription-bar" element={<SubscriptionBar />} />
           </Routes>
         </Router>
 
