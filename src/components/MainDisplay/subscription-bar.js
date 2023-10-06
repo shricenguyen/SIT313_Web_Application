@@ -15,7 +15,7 @@ const SubscriptionBar = () => {
       .then((res) => res.json())
       .then((data) => console.log(data))
       .catch((err) => console.log(err));
-    console.alert("Email sent successfully");
+    alert("Email sent successfully");
   };
 
   const handleSubmit = (e) => {
